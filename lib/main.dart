@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:youtube_demo/VideoPlay/videoplaypage.dart';
+import 'package:youtube_demo/bottomNavigation&appbar/bottom_navigation&appbar_main.dart';
 
 void main() {
   runApp(const YouTube());
@@ -22,7 +23,7 @@ class YouTube extends StatelessWidget{
       ),
      
       ),
-    home: const Videoplaypage(),
+    home: const BottomNavigationAppbar(),
 
    );
   }
